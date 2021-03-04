@@ -5,7 +5,7 @@
     Std: 11 Sci C
     Roll No.: 5213
 
-    Program Version: 1.0
+    Program Version: 1.1
     Date created: 9-02-2021
     Category: Game
 */
@@ -82,12 +82,12 @@ int main()
             printf("You entered wrong value or the number is already taken\nYour turn is terminated\n\n");
         }
 
-        if(a=='X' && b=='X' && c=='X' || d=='X' && e=='X' && f=='X' || g=='X' && h=='X' && i=='X' || a=='X' && d=='X' && g=='X' || b=='X' && e=='X' && h=='X' || e=='X' && f=='X' && i=='X' || a=='X' && e=='X' && i=='X' || c=='X' && e=='X' && g=='X')
+        if(a=='X' && b=='X' && c=='X' || d=='X' && e=='X' && f=='X' || g=='X' && h=='X' && i=='X' || a=='X' && d=='X' && g=='X' || b=='X' && e=='X' && h=='X' || c=='X' && f=='X' && i=='X' ||e=='X' && f=='X' && i=='X' || a=='X' && e=='X' && i=='X' || c=='X' && e=='X' && g=='X')
         {
             printf("Player 1 won!\n");
             break;
         }
-        else if(a=='O' && b=='O' && c=='O' || d=='O' && e=='O' && f=='O' || g=='O' && h=='O' && i=='O' || a=='O' && d=='O' && g=='O' || b=='O' && e=='O' && h=='O' || e=='O' && f=='O' && i=='O' || a=='O' && e=='O' && i=='O' || c=='O' && e=='O' && g=='O')
+        else if(a=='O' && b=='O' && c=='O' || d=='O' && e=='O' && f=='O' || g=='O' && h=='O' && i=='O' || a=='O' && d=='O' && g=='O' || b=='O' && e=='O' && h=='O' || c=='O' && f=='O' && i=='O' ||e=='O' && f=='O' && i=='O' || a=='O' && e=='O' && i=='O' || c=='O' && e=='O' && g=='O')
         {
             printf("Player 2 won!\n");
             break;
