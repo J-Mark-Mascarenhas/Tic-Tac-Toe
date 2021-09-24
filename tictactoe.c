@@ -5,11 +5,11 @@
     Std: 11 Sci C
     Roll No.: 5213
 
-    Program Version: 1.1
+    Program Version: 1.2
     Date created: 9-02-2021
     Category: Game
 */
-   
+#include<conio.h>
 #include<stdio.h>
 int main()
 {
@@ -177,5 +177,6 @@ int main()
             break;
         }
     }
+    getch();
     return 0;
 }
